@@ -1,0 +1,6 @@
+Experiment,train_acc,test_acc,hidden_layers,activation,lr,batch_size,epochs
+Exp1_Baseline,0.9956,0.98,"(64,)",relu,0.001,32,100
+Exp2_Deeper,0.9994,0.9725,"(128, 64)",relu,0.001,32,100
+Exp3_HighLR,1.0,0.975,"(64,)",relu,0.01,32,100
+Exp4_SmallBatch,1.0,0.98,"(64,)",relu,0.001,16,100
+Exp5_Tanh,0.9906,0.9875,"(64,)",tanh,0.001,32,100
